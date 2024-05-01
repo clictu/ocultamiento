@@ -20,7 +20,7 @@ public class TodaysDate {
         month = calendar.get(Calendar.MONTH) + 1; // Se suma 1 porque en Calendar.MONTH enero es 0
         year = calendar.get(Calendar.YEAR);
         System.out.println("Time: " + time);
-        System.out.println("Date: " + month + "/" + day + "/" + year);
+        System.out.println("Date: " + month + " " + day + " " + year);
     }
 }
 
